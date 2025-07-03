@@ -19,9 +19,11 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Middleware
+// Middleware: Enable CORS for cross-origin requests
 app.use(cors());
+// Middleware: Parse incoming JSON requests
 app.use(express.json());
+// Middleware: Parse URL-encoded data
 app.use(express.urlencoded({ extended: true }));
 
 // Serve uploaded files
