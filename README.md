@@ -137,7 +137,7 @@ pixelpulse/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/pixelpulse.git
+   git clone https://github.com/WambuiGrace/pixelpulse.git
    cd pixelpulse
    ```
 
@@ -264,18 +264,6 @@ POST /api/posts
 
 ![Create Post Screenshot](./docs/images/create-post.png)
 
-### User Dashboard
-
-![Dashboard Screenshot](./docs/images/dashboard.png)
-
-### Admin Panel
-
-![Admin Panel Screenshot](./docs/images/admin-panel.png)
-
-### Responsive Design
-
-![Mobile View Screenshot](./docs/images/mobile-view.png)
-
 ## 🧪 Testing
 
 ### Backend Tests
@@ -325,7 +313,7 @@ Import the Postman collection from `backend/tests/pixelpulse.postman_collection.
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](./docs/images/home-page.png)
+![Home Page](./docs/images/homepage.png)
 
 ### Blog Listing
 ![Blog Listing](./docs/images/blog-listing.png)
@@ -344,15 +332,11 @@ Import the Postman collection from `backend/tests/pixelpulse.postman_collection.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👨‍💻 Author
 
 **Grace Wambui**
 - GitHub: [@WambuiGrace](https://github.com/WambuiGrace)
-- Email: grace.wambui@example.com
+- Email: wambuigm55@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -360,15 +344,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **React Community** for excellent documentation
 - **MongoDB** for the powerful database
 - **Tailwind CSS** for the utility-first CSS framework
-
-## 📞 Support
-
-If you have any questions or need help with setup, please:
-
-1. Check the [Issues](https://github.com/yourusername/pixelpulse/issues) section
-2. Create a new issue if your problem isn't already reported
-3. Contact the author directly
-
----
-
-⭐ Star this repository if you find it helpful!
