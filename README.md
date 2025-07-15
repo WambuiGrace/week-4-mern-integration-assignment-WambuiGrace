@@ -186,12 +186,6 @@ pixelpulse/
    - Frontend: http://localhost:5173
    - Backend API: http://localhost:5000
 
-### 🗄️ Database Setup
-
-1. **MongoDB Local Setup**
-   - Install MongoDB locally
-   - Start MongoDB service
-   - The database will be created automatically
 
 ### Creating a Blog Post
 
@@ -215,14 +209,6 @@ Import the Postman collection from `backend/tests/pixelpulse.postman_collection.
 
 ### User Authentication
 ![Login Page](./docs/images/login-page.png)
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 👨‍💻 Author
 
