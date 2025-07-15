@@ -130,15 +130,15 @@ pixelpulse/
 ### Prerequisites
 
 - Node.js (v18 or higher)
-- MongoDB (local installation or MongoDB Atlas)
+- MongoDB (local installation)
 - npm or yarn package manager
 
 ### Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/WambuiGrace/pixelpulse.git
-   cd pixelpulse
+   git clone <this repository>
+   cd 
    ```
 
 2. **Install backend dependencies**
@@ -193,122 +193,14 @@ pixelpulse/
    - Start MongoDB service
    - The database will be created automatically
 
-2. **MongoDB Atlas Setup (Cloud)**
-   - Create a MongoDB Atlas account
-   - Create a new cluster
-   - Get the connection string and update MONGODB_URI in .env
-
-3. **Seed Data (Optional)**
-   ```bash
-   cd backend
-   node seedData.js
-   ```
-
-## 📚 API Documentation
-
-### Posts Endpoints
-
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| GET | `/api/posts` | Get all posts | ❌ |
-| GET | `/api/posts/:id` | Get post by ID | ❌ |
-| POST | `/api/posts` | Create new post | ✅ (Admin) |
-| PUT | `/api/posts/:id` | Update post | ✅ (Admin) |
-| DELETE | `/api/posts/:id` | Delete post | ✅ (Admin) |
-| POST | `/api/posts/:id/like` | Like/unlike post | ✅ |
-| POST | `/api/posts/:id/comment` | Add comment | ✅ |
-| POST | `/api/posts/:id/save` | Save/unsave post | ✅ |
-
-**Create Post**
-```json
-POST /api/posts
-{
-  "title": "Latest Gaming News",
-  "content": "Content of the post...",
-  "summary": "Brief summary",
-  "image": "image_url_or_file",
-  "category": "Gaming News"
-}
-```
-
-### Categories Endpoints
-
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| GET | `/api/categories` | Get all categories | ❌ |
-| GET | `/api/categories/:id` | Get category by ID | ❌ |
-| POST | `/api/categories` | Create category | ✅ (Admin) |
-| PUT | `/api/categories/:id` | Update category | ✅ (Admin) |
-| DELETE | `/api/categories/:id` | Delete category | ✅ (Admin) |
-
-### Users Endpoints
-
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| GET | `/api/users` | Get all users | ✅ (Admin) |
-| GET | `/api/users/:id` | Get user by ID | ✅ (Admin) |
-| PUT | `/api/users/:id` | Update user | ✅ (Admin) |
-| DELETE | `/api/users/:id` | Delete user | ✅ (Admin) |
-| GET | `/api/users/saved` | Get saved posts | ✅ |
-
-### Upload Endpoints
-
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| POST | `/api/upload` | Upload image | ✅ |
-| DELETE | `/api/upload/:filename` | Delete image | ✅ |
-
-## 🎯 Usage Examples
-
 ### Creating a Blog Post
 
 ![Create Post Screenshot](./docs/images/create-post.png)
 
-## 🧪 Testing
-
-### Backend Tests
-```bash
-cd backend
-npm test
-```
-
-### Frontend Tests
-```bash
-cd frontend
-npm test
-```
 
 ### API Testing with Postman
 Import the Postman collection from `backend/tests/pixelpulse.postman_collection.json`
 
-## 🚀 Deployment
-
-### Backend Deployment (Heroku/Railway/Vercel)
-
-1. **Environment Variables**
-   ```env
-   NODE_ENV=production
-   MONGODB_URI=your_production_mongodb_uri
-   JWT_SECRET=your_production_jwt_secret
-   PORT=5000
-   ```
-
-2. **Build Commands**
-   ```bash
-   npm start
-   ```
-
-### Frontend Deployment (Vercel/Netlify)
-
-1. **Build the application**
-   ```bash
-   npm run build
-   ```
-
-2. **Environment Variables**
-   ```env
-   VITE_API_URL=https://your-backend-domain.com/api
-   ```
 
 ## 📸 Screenshots
 
